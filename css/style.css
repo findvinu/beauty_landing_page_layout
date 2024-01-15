@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+body {
+	font-family:'Roboto', sans-serif;
+	margin:0px;
+	padding:0px;
+	overflow-x:hidden;
+	color:#555555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#111111;
+	font-weight:700;
+	margin:0 auto 20px;
+}
+p {
+	font-size:18px;
+	color:#555555;
+	line-height:32px;
+	font-weight:300;
+}
+a {
+	transition-duration:0.5s;
+	 -moz-transition-duration:0.5s;
+	  -o-transition-duration:0.5s;
+	   -webkit-transition-duration:0.5s;
+	   -ms-transition-duration:0.5s;
+	text-decoration:none;
+	color:#fb2351;
+}
+a:hover, a:focus {
+	text-decoration:none;
+	color:#fb2351;
+	outline:none;
+}
+ul, ol {
+	margin:0 auto 20px;
+}
+ul li, ol li {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 auto 10px;
+}
+.btn {
+  background: #fff none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 3px;
+  color: #000;
+  font-size: 18px;
+  line-height: 1;
+  margin: auto;
+  padding: 14px 27px;
+  text-transform: capitalize;
+  transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-ms-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+}
+.btn:hover {
+	color:#000;
+}
+.header {
+  background:url(../images/bg_image.jpg) no-repeat center / cover;
+  padding: 30px 0 70px;
+}
+.header_inner {
+	margin:0 auto;
+	max-width:450px;
+}
+img {
+	max-width:100%;
+}
+.logo {
+	margin:20px auto 0;
+	text-align:center;
+}
+.header h1 {
+  margin-bottom: 15px;
+  margin-top:40px;
+}
+.header h6 {
+  background: #fb2351 none repeat scroll 0 0;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  padding: 10px 15px;
+}
+.header p {
+	font-size: 22px;
+	line-height: 25px;
+	margin: 0 auto 22px;
+	color: #4b3135;
+}
+h1 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 70px;
+  margin-bottom: 10px;
+}
+h2 {
+	color:#fff;
+	font-weight:300;
+	line-height:33px;
+	font-size:26px;
+	margin:0 auto 10px;	
+}
+h2 span, p span {
+	font-weight:900;
+	color:#027a02;	
+}
+p {
+	color:#fff;
+	font-weight:300;
+	line-height:30px;
+	font-size:18px;
+	margin:0 auto 15px;	
+}
+.demo_img {
+  overflow: hidden;
+  position: relative;
+}
+.home_demo .demo_img {
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+	height: 530px;
+	margin: 0;
+	max-width: 470px;
+}
+.demo_img img {
+	max-width:100%;
+}
+.demo_wrap {
+	text-align: center;
+	margin: 40px auto;
+}
+.demo_wrap h4 a {
+	font-size: 20px;
+	font-weight: normal;
+	font-weight: 700;
+}
+.demo_hover {
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition-duration:0.3s;
+   -moz-transition-duration:0.3s;
+	-webkit-transition-duration:0.3s;
+	 -o-transition-duration:0.3s;
+	  -ms-transition-duration:0.3s;
+}
+.demo_hover a {
+	position:absolute;
+	top:50%;
+	width:200px;
+	left:0px;
+	right:0px;
+	margin:0 auto;
+	transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
+	-o-transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+}
+.demo_wrap:hover .demo_hover {
+	opacity:1;
+}
+.footer {
+	background:#0c0c0c;
+	padding:50px 0 30px;
+	text-align:center;	
+}
+.footer .logo {
+	margin:0 auto 20px;
+}
+.footer p {
+	color:#ddd;	
+}
+.home_demo {
+	padding:0;
+	text-align: center;
+}
+.home_demo h2 {
+	color: #111;
+	text-align: center;
+	font-weight: bold;
+	border: #777 solid 2px;
+	padding: 10px 30px;
+	display: inline-block;
+	margin: 0 auto 0;
+	clear: both;
+}
+.demo_link {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	content:"";
+	z-index:22;
+	display:block;
+}
+
+.box_wrap {
+    padding: 10px 0;
+    margin: 0 -8px;
+}
+.medical_wrap {
+	background:#222;
+}
+.product_wrap {
+	background:#c7335b;
+}
+.heading {
+	/* display: inline-block; */
+	color: #000;
+	font-size: 23px;
+	border: #fff solid 2px;
+	padding: 7px 20px;
+	font-weight: 600;
+	background: #fff;
+	margin: 0px -14px 0;
+	position: relative;
+	z-index: 5;
+}
+@media (max-width:768px) {
+h1 {
+  font-size: 38px;
+  line-height: 50px;
+}
+.home_demo .demo_img {
+	height:auto;
+}
+.box_wrap {
+	padding:10px 15px;
+}
+}
